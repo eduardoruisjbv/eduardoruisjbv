@@ -8,7 +8,7 @@ import sys
 from PIL import Image, ImageEnhance, ImageOps
 
 ROOT = Path(__file__).resolve().parent.parent
-source = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "source-prepped.png"
+source = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "logo-knight.png"
 theme_name = os.environ.get("PROFILE_THEME", "dark").lower()
 if theme_name not in ("dark", "light"):
     raise ValueError("PROFILE_THEME must be 'dark' or 'light'")

@@ -14,7 +14,7 @@
 
 <table>
   <tr>
-    <td valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="./avatar-ascii.svg"><source media="(prefers-color-scheme: light)" srcset="./avatar-ascii-light.svg"><img src="./avatar-ascii-light.svg" width="420" alt="Rui's profile avatar rendered as animated ASCII art" /></picture></td>
+    <td valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="./avatar-ascii.svg"><source media="(prefers-color-scheme: light)" srcset="./avatar-ascii-light.svg"><img src="./avatar-ascii-light.svg" width="420" alt="the knight icon from Rui's logo rendered as animated ASCII art" /></picture></td>
     <td valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="./rui-profile-card.svg"><source media="(prefers-color-scheme: light)" srcset="./rui-profile-card-light.svg"><img src="./rui-profile-card-light.svg" width="420" alt="Rui's profile and focus" /></picture></td>
   </tr>
 </table>
