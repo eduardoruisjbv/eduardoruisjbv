@@ -2,7 +2,11 @@
 
 <h3><code>eduardoruisjbv@github ~ $ ./contributions --year</code></h3>
 
-<img src="./contrib-heatmap.svg" width="860" alt="Eduardoruisjbv's GitHub contribution calendar" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./contrib-heatmap.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./contrib-heatmap-light.svg">
+  <img src="./contrib-heatmap-light.svg" width="860" alt="Eduardoruisjbv's GitHub contribution calendar" />
+</picture>
 
 <br><br>
 
@@ -10,8 +14,8 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="./avatar-ascii.svg" width="420" alt="Rui's profile avatar rendered as animated ASCII art" /></td>
-    <td valign="top"><img src="./rui-profile-card.svg" width="420" alt="Rui's profile and focus" /></td>
+    <td valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="./avatar-ascii.svg"><source media="(prefers-color-scheme: light)" srcset="./avatar-ascii-light.svg"><img src="./avatar-ascii-light.svg" width="420" alt="Rui's profile avatar rendered as animated ASCII art" /></picture></td>
+    <td valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="./rui-profile-card.svg"><source media="(prefers-color-scheme: light)" srcset="./rui-profile-card-light.svg"><img src="./rui-profile-card-light.svg" width="420" alt="Rui's profile and focus" /></picture></td>
   </tr>
 </table>
 
@@ -34,7 +38,9 @@ source .venv/bin/activate
 pip install -r scripts/requirements.txt
 python scripts/prep_photo.py
 python scripts/make_ascii_svg.py
+PROFILE_THEME=light python scripts/make_ascii_svg.py
 python scripts/make_info_card.py
+PROFILE_THEME=light python scripts/make_info_card.py
 ```
 
 The daily job only needs the public GitHub contributions page; it uses no personal access token.
