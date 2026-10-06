@@ -1,8 +1,6 @@
 <div align="center">
 
-
 <h3><code>eduardoruisjbv@github ~ $ ./contributions --year</code></h3>
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./contrib-heatmap.svg">
@@ -10,12 +8,9 @@
   <img src="./contrib-heatmap-light.svg" width="860" alt="Eduardoruisjbv's GitHub contribution calendar" />
 </picture>
 
-
 <br><br>
 
-
 <h3><code>eduardoruisjbv@github ~ $ whoami</code></h3>
-
 
 <table>
   <tr>
@@ -24,38 +19,13 @@
   </tr>
 </table>
 
-
 <br>
 
-
 <p><b>AI Systems &amp; Product Engineer | World of Warcraft Add-on Developer</b></p>
-
 <p>I design and develop World of Warcraft addons focused on player quality of life, clear interfaces, and thoughtful automation.</p>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-eduardorui.com.br-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://eduardorui.com.br/)
 [![GitHub](https://img.shields.io/badge/GitHub-eduardoruisjbv-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eduardoruisjbv)
 [![CurseForge](https://img.shields.io/badge/CurseForge-World%20of%20Warcraft%20Addons-f16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/members/vonkoenig_rui/projects)
 
-
 </div>
-
-
-## Refresh the profile art
-
-
-The contribution graph updates daily through GitHub Actions. To regenerate the avatar art after changing `source-photo.jpg`, install the dependencies and run:
-
-
-```sh
-python -m venv .venv
-source .venv/bin/activate
-pip install -r scripts/requirements.txt
-python scripts/prep_photo.py
-python scripts/make_ascii_svg.py
-PROFILE_THEME=light python scripts/make_ascii_svg.py
-python scripts/make_info_card.py
-PROFILE_THEME=light python scripts/make_info_card.py
-```
-
-
-The daily job only needs the public GitHub contributions page; it uses no personal access token.
