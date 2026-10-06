@@ -8,7 +8,7 @@
 
 ## Selected work
 
-- **[DaylightDDC](https://github.com/eduardoruisjbv/DaylightDDC)**: Schedules external-monitor brightness on Linux through DDC/CI, with optional daylight-aware profiles and GNOME controls.
+- **[DaylightDDC](https://github.com/eduardoruisjbv/DaylightDDC)**: A location-aware lighting scheduler for Linux monitors. It uses geographic coordinates and the solar cycle to adapt brightness throughout the day, bringing an ambient-light style experience to external displays through DDC/CI, with optional daylight-aware profiles and GNOME controls.
 - **World of Warcraft add-ons:** [BagMemory](https://github.com/eduardoruisjbv/BagMemory) protects valuable items; [MuscleMemory](https://github.com/eduardoruisjbv/MuscleMemory) suggests role-aware ability mappings and keeps manual choices in the player's hands; [MythicView](https://github.com/eduardoruisjbv/MythicView) adds a cinematic camera that accounts for combat, groups, and flight.
 - **[BTKVM](https://github.com/eduardoruisjbv/btkvm):** A vision for an Apple-like continuity layer across Android devices, connecting phones, tablets, and PCs through shared input, audio, and seamless handoff.
 
