@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Render Rui's static, terminal-style profile card as an animated SVG."""
+from html import escape
 import os
 from pathlib import Path
 
@@ -17,7 +18,7 @@ lines = [
 ]
 parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
-    '<style>@keyframes arrive{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}.row{opacity:0;animation:arrive .5s ease-out both}</style>',
+    '<style>@keyframes arrive{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}.row{animation:arrive .5s ease-out}</style>',
     '<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111722"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>',
     f'<rect width="{W}" height="{H}" rx="12" fill="url(#bg)"/>',
     f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="12" fill="none" stroke="#30363d"/>',
@@ -32,7 +33,7 @@ parts.append('<line x1="44" y1="168" x2="756" y2="168" stroke="#30363d"/>')
 for i, (label, value, color) in enumerate(lines):
     y = 226 + i * 76
     cls = "" if STATIC else ' class="row" style="animation-delay:%.2fs"' % (i * 0.12)
-    parts.append(f'<g{cls}><text x="48" y="{y}" fill="#7d8590" font-size="18">{label}</text><text x="226" y="{y}" fill="{color}" font-size="20">{value}</text></g>')
+    parts.append(f'<g{cls}><text x="48" y="{y}" fill="#7d8590" font-size="18">{escape(label)}</text><text x="226" y="{y}" fill="{color}" font-size="20">{escape(value)}</text></g>')
 parts.append('<line x1="44" y1="718" x2="756" y2="718" stroke="#30363d"/>')
 parts.append('<text x="48" y="766" fill="#7d8590" font-size="16">$ open to ideas, collaboration, and useful software</text>')
 parts.append('<text x="48" y="804" fill="#22d3ee" font-size="15">https://eduardorui.com.br/</text>')

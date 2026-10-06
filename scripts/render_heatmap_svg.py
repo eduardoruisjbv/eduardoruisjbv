@@ -39,7 +39,7 @@ def render():
     height = top + 7 * STEP + 104
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
-        '<style>@keyframes reveal{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}.cell{opacity:0;animation:reveal .42s cubic-bezier(.2,.8,.2,1) both}</style>',
+        '<style>@keyframes reveal{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}.cell{animation:reveal .42s cubic-bezier(.2,.8,.2,1)}</style>',
         '<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1420"/><stop offset="1" stop-color="#0a0e14"/></linearGradient></defs>',
         f'<rect width="{width}" height="{height}" rx="12" fill="url(#bg)"/><rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="12" fill="none" stroke="#1f6feb" stroke-opacity=".55"/>',
         f'<line x1="0" y1="30" x2="{width}" y2="30" stroke="#1f6feb" stroke-opacity=".35"/>',
