@@ -1,8 +1,8 @@
 <h1>Rui</h1>
 
-<p><strong>AI Systems &amp; Product Engineer | World of Warcraft Add-on Developer</strong></p>
+<p><strong>AI Systems &amp; Product Engineer | DevOps | World of Warcraft Add-on Developer</strong></p>
 
-<p>I design practical software for developer workflows, Linux desktops, and WoW players. I care about clear interfaces, careful automation, and keeping people in control of the tools they use.</p>
+<p>I build practical tools for developer workflows, Linux services, and WoW players. My work spans product engineering and DevOps, with a focus on clear interfaces, reliable automation, and systems that are straightforward to operate.</p>
 
 <p><a href="https://eduardorui.com.br/">Portfolio</a> | <a href="https://www.curseforge.com/members/vonkoenig_rui/projects">World of Warcraft add-ons</a></p>
 

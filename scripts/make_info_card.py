@@ -17,7 +17,7 @@ COLORS = {
 }[THEME]
 lines = [
     ("name", "Rui", "text"),
-    ("role", "AI Systems & Product Engineer", "cyan"),
+    ("role", "AI Systems, Product Engineering & DevOps", "cyan"),
     ("builds", "AI tools, web platforms", "text"),
     ("focus", "Developer workflows", "text"),
     ("web", "eduardorui.com.br", "green"),
@@ -35,7 +35,7 @@ for i, color in enumerate(("#ff5f56", "#ffbd2e", "#27c93f")):
     parts.append(f'<circle cx="20" cy="15" r="5" fill="{color}" transform="translate({i*16} 0)"/>')
 parts.append(f'<text x="{W/2}" y="19" fill="{COLORS["muted"]}" font-size="12" text-anchor="middle">eduardoruisjbv@github:~$ whoami</text>')
 parts.append(f'<text x="44" y="104" fill="{COLORS["green"]}" font-size="25">Rui</text>')
-parts.append(f'<text x="44" y="138" fill="{COLORS["muted"]}" font-size="15">AI SYSTEMS  /  PRODUCT ENGINEERING</text>')
+parts.append(f'<text x="44" y="138" fill="{COLORS["muted"]}" font-size="15">AI SYSTEMS  /  PRODUCT ENGINEERING  /  DEVOPS</text>')
 parts.append(f'<line x1="44" y1="168" x2="756" y2="168" stroke="{COLORS["border"]}"/>')
 for i, (label, value, color) in enumerate(lines):
     y = 226 + i * 76
