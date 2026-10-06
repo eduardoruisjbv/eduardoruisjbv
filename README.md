@@ -1,16 +1,16 @@
-<h1 align="center">Rui</h1>
+<h1>Rui</h1>
 
-<p align="center"><strong>AI Systems &amp; Product Engineer · World of Warcraft Add-on Developer</strong></p>
+<p><strong>AI Systems &amp; Product Engineer | World of Warcraft Add-on Developer</strong></p>
 
-<p align="center">I design practical software for developer workflows, Linux desktops, and WoW players. I care about clear interfaces, careful automation, and keeping people in control of the tools they use.</p>
+<p>I design practical software for developer workflows, Linux desktops, and WoW players. I care about clear interfaces, careful automation, and keeping people in control of the tools they use.</p>
 
-<p align="center"><a href="https://eduardorui.com.br/">Portfolio</a> · <a href="https://www.curseforge.com/members/vonkoenig_rui/projects">World of Warcraft add-ons</a></p>
+<p><a href="https://eduardorui.com.br/">Portfolio</a> | <a href="https://www.curseforge.com/members/vonkoenig_rui/projects">World of Warcraft add-ons</a></p>
 
 ## Selected work
 
-- **[DaylightDDC](https://github.com/eduardoruisjbv/DaylightDDC)** — Schedules external-monitor brightness on Linux through DDC/CI, with optional daylight-aware profiles and GNOME controls.
-- **World of Warcraft add-ons** — [BagMemory](https://github.com/eduardoruisjbv/BagMemory) protects valuable items; [MuscleMemory](https://github.com/eduardoruisjbv/MuscleMemory) suggests role-aware ability mappings and keeps manual choices in the player's hands; [MythicView](https://github.com/eduardoruisjbv/MythicView) adds a cinematic camera that accounts for combat, groups, and flight.
-- **[BTKVM](https://github.com/eduardoruisjbv/btkvm)** — Use a Linux PC's keyboard and mouse to control a Mac over Bluetooth, then route Mac audio back to the PC. No software is needed on the Mac.
+- **[DaylightDDC](https://github.com/eduardoruisjbv/DaylightDDC)**: Schedules external-monitor brightness on Linux through DDC/CI, with optional daylight-aware profiles and GNOME controls.
+- **World of Warcraft add-ons:** [BagMemory](https://github.com/eduardoruisjbv/BagMemory) protects valuable items; [MuscleMemory](https://github.com/eduardoruisjbv/MuscleMemory) suggests role-aware ability mappings and keeps manual choices in the player's hands; [MythicView](https://github.com/eduardoruisjbv/MythicView) adds a cinematic camera that accounts for combat, groups, and flight.
+- **[BTKVM](https://github.com/eduardoruisjbv/btkvm):** A vision for an Apple-like continuity layer across Android devices, connecting phones, tablets, and PCs through shared input, audio, and seamless handoff.
 
 ## Terminal profile
 
