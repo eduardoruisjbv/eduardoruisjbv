@@ -11,7 +11,7 @@
 <table>
   <tr>
     <td valign="top"><img src="./avatar-ascii.svg" width="420" alt="Rui's profile avatar rendered as animated ASCII art" /></td>
-    <td valign="top"><img src="./info-card.svg" width="420" alt="Rui's profile and focus" /></td>
+    <td valign="top"><img src="./rui-profile-card.svg" width="420" alt="Rui's profile and focus" /></td>
   </tr>
 </table>
 

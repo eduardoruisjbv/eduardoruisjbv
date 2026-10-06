@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "info-card.svg"
+OUT = ROOT / "rui-profile-card.svg"
 STATIC = bool(os.environ.get("STATIC"))
 W, H = 800, 860
 lines = [
