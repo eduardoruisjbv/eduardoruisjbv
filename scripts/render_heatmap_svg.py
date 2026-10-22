@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Render the contribution JSON as an animated GitHub-style heatmap SVG."""
 from datetime import date
+from html import escape
 import json
 from pathlib import Path
 
@@ -59,7 +60,7 @@ def render(theme):
         f'<rect width="{width}" height="{height}" rx="12" fill="url(#bg)"/><rect x=".5" y=".5" width="{width-1}" height="{height-1}" rx="12" fill="none" stroke="{theme["border"]}" stroke-opacity=".75"/>',
         f'<line x1="0" y1="30" x2="{width}" y2="30" stroke="{theme["border"]}" stroke-opacity=".45"/>',
         '<text x="22" y="20" fill="#ff5f56" font-size="12">●</text><text x="38" y="20" fill="#ffbd2e" font-size="12">●</text><text x="54" y="20" fill="#27c93f" font-size="12">●</text>',
-        f'<text x="{width/2}" y="20" fill="{theme["muted"]}" font-size="12" text-anchor="middle">eduardoruisjbv@github:~$ ./contributions --year</text>',
+        f'<text x="{width/2}" y="20" fill="{theme["muted"]}" font-size="12" text-anchor="middle">{escape(DATA["username"])}@github:~$ ./contributions --year</text>',
     ]
     months_seen = set()
     for column_index, column in enumerate(grid):
